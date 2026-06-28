@@ -156,6 +156,11 @@ header .navbar-brand:hover {
 .btn:hover::before {
 	left: 100%;
 }
+.hero-text .btn {
+	width: auto;
+	padding: 5px 18px !important;
+	white-space: nowrap;
+}
 
 /*About Us Section Styling*/
 .section-heading h4 {
@@ -259,7 +264,7 @@ hr {
 /*Footer Styling*/
 footer {
 	background-color: #101d2c;
-	color: rgba(255, 255, 255, 0.3);
+	color: #fff;
 	width: 100%;
 }
 /*Media Queries*/
