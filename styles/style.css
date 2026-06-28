@@ -5,9 +5,17 @@
 /*font-family: 'Teko', sans-serif;*/
 
 /*General Resetting*/
+html {
+	overflow-x: hidden;
+}
 body {
 	font-family: 'teko', cursive;
 	overflow-x: hidden;
+}
+/* fix: bare Bootstrap rows (no .container parent) overflow on mobile */
+.menu > .row {
+	margin-left: 0;
+	margin-right: 0;
 }
 a {
 	text-decoration: none;
