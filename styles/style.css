@@ -412,18 +412,13 @@ hr {
 	font-weight: 700;
 	font-size: 30px;
 }
-.valores-btn {
-	display: flex !important;
-	justify-content: center;
-	width: 100%;
-	margin: 22px 0 14px;
-}
 .valores-foot {
 	text-align: center;
 	color: #8a6b54;
 	font-family: Georgia, serif;
 	font-size: 12px;
 	line-height: 1.6;
+	margin-top: 22px;
 }
 /* Stack columns on tablets/phones */
 @media (max-width: 991px) {
