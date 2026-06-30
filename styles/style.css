@@ -289,9 +289,17 @@ hr {
 	gap: 16px;
 	margin-bottom: 24px;
 }
+.cards-title {
+	text-align: center;
+	color: #c69963;
+	font-family: 'Niconne', sans-serif;
+	font-size: 42px;
+	margin: 30px 0 22px;
+}
 .cards-grid .card-item {
 	width: 200px;
 	max-width: 44%;
+	cursor: pointer;
 }
 .cards-grid .card-item img {
 	width: 100%;
@@ -308,6 +316,44 @@ hr {
 .cards-grid .card-valores {
 	width: 430px;
 	max-width: 92%;
+}
+/* Lightbox */
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.88);
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+.lightbox.open {
+	display: flex;
+}
+.lightbox-img {
+	max-width: 90%;
+	max-height: 90vh;
+	border-radius: 12px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+	animation: lightbox-in 0.25s ease;
+}
+@keyframes lightbox-in {
+	from { transform: scale(0.85); opacity: 0; }
+	to   { transform: scale(1); opacity: 1; }
+}
+.lightbox-close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	color: #fff;
+	font-size: 45px;
+	font-weight: 300;
+	cursor: pointer;
+	line-height: 1;
 }
 
 /*Chefs Section Styling*/
