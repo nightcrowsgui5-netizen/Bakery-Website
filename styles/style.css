@@ -277,6 +277,34 @@ hr {
 .no-gutters img {
 	height: auto !important;
 }
+/* Cards grid (recheios / combinações / valores) */
+.cards-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	margin-bottom: 35px;
+}
+.cards-grid .card-item {
+	width: 240px;
+	max-width: 44%;
+}
+.cards-grid .card-item img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 12px;
+	box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+	transition: transform 0.3s;
+	-webkit-transition: transform 0.3s;
+}
+.cards-grid .card-item img:hover {
+	transform: translateY(-6px);
+}
+.cards-grid .card-valores {
+	width: 430px;
+	max-width: 92%;
+}
 
 /*Chefs Section Styling*/
 .card-body h1 {
