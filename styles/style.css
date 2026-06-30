@@ -279,7 +279,8 @@ hr {
 }
 /* Cards grid (recheios / combinações / valores) */
 .menu-wrap {
-	max-width: 1480px;
+	width: 94%;
+	max-width: 1760px;
 	margin: 0 auto;
 }
 .cards-grid {
@@ -300,23 +301,23 @@ hr {
 	min-width: 0;
 }
 .menu-right {
-	flex: 0 0 320px;
-	max-width: 320px;
+	flex: 0 0 340px;
+	max-width: 340px;
 }
 .cards-title {
-	text-align: left;
+	text-align: center;
 	color: #c69963;
 	font-family: 'Niconne', sans-serif;
 	font-size: 42px;
 	margin: 10px 0 20px;
 }
 .cards-grid .card-item {
-	width: 175px;
+	width: 205px;
 	max-width: 44%;
 	cursor: pointer;
 }
 .menu-left .cards-grid {
-	justify-content: flex-start;
+	justify-content: center;
 }
 .cards-grid .card-item img {
 	width: 100%;
