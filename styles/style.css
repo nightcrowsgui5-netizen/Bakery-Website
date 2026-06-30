@@ -217,7 +217,7 @@ header .navbar-brand:hover {
 	align-items: center;
 	gap: 8px;
 	background-color: #25d366;
-	color: #fff !important;
+	color: #000 !important;
 	font-family: 'teko', cursive;
 	font-size: 18px;
 	padding: 8px 18px;
