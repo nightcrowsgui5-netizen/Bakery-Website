@@ -294,7 +294,7 @@ hr {
 .menu-layout {
 	display: flex;
 	gap: 28px;
-	align-items: flex-start;
+	align-items: stretch;
 }
 .menu-left {
 	flex: 1 1 auto;
@@ -338,8 +338,10 @@ hr {
 	border-radius: 16px;
 	padding: 26px 22px;
 	box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
-	position: sticky;
-	top: 20px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .valores-title {
 	font-family: Georgia, 'Times New Roman', serif;
